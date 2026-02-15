@@ -90,7 +90,7 @@ def shortest_path(source, target):
 
     If no possible path, returns None.
     """
-     if source == target:
+    if source == target:
         return []
     
     start = Node(state=source, parent=None, action=None)
